@@ -1,0 +1,34 @@
+{
+  "name": "episode-03",
+  "version": "1.0.0",
+  "description": "This is React Learning",
+  "keywords": [
+    "React"
+  ],
+  "homepage": "https://github.com/kaushinder/90-Days-Developer-Challenge#readme",
+  "bugs": {
+    "url": "https://github.com/kaushinder/90-Days-Developer-Challenge/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushinder/90-Days-Developer-Challenge.git"
+  },
+  "license": "ISC",
+  "author": "Kaushinder",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "browserslist": [
+    "last 2 chrome version",
+    "last 2 firefox version"
+  ]
+}
