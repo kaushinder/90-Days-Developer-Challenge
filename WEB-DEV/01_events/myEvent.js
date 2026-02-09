@@ -15,7 +15,7 @@ eventEmitter.once("pushnotify", () => {
 
 
 // Emit the event
-eventEmitter.emit("greet", "kaushinder");
+// eventEmitter.emit("greet", "kaushinder");
 // eventEmitter.emit("greet", "chai");
 // eventEmitter.emit("pushnotify");
 // eventEmitter.emit("pushnotify");
