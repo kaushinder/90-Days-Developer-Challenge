@@ -14,7 +14,7 @@ setTimeout(() => {
 
 function multiply(x, y) {
     const result = x * y;
-    return result
+    return result;
 }
 
 const c = multiply(a, b);

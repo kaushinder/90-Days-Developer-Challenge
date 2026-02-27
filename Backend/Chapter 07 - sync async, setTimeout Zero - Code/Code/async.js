@@ -1,7 +1,7 @@
 const fs = require("fs");
 const https = require("https");
 
-console.log("Asynchronous Javascript")
+console.log("Hello World");
 
 var a = 5;
 var b = 10;
@@ -10,8 +10,8 @@ fs.readFileSync("./file.txt", "utf8");
 console.log("This will execute only after reading the file")
 
 https.get("https://dummyjson.com/products/1", (res) => {
-    console.log("data fetch successfully")
-})
+    console.log("data fetch successfully");
+});
 
 setTimeout(() => {
     console.log("Execute it after 5 seconds")

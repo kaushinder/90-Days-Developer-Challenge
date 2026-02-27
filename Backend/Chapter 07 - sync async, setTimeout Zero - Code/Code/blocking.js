@@ -7,7 +7,7 @@ console.log("Program started")
 
 //This is an synchronous function of pbkdf2 which will block the main thread and these type of synchronus functions does not have any callback functions
 crypto.pbkdf2Sync("akshumint999", "salt", 5000000, 20, "sha512");
-console.log("Fist synchronous key is generated ")
+console.log("Fist synchronous key is generated ") 
 
 //Asynchronous function
 crypto.pbkdf2("akshumint999", "salt", 50000, 20, "sha512", (err, key) => {
