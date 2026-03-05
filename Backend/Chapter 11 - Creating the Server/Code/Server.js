@@ -1,6 +1,6 @@
 //http server 
 const http = require("node:http");
-const port = 999;
+const port = 7777; //port number to listen on
 const server = http.createServer(function (req, res) {
     if (req.url === "/getSecretData") {
         res.end("You are a human and the the secret so chill")
