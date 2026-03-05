@@ -2,7 +2,7 @@ const { MongoClient } = require("mongodb");
 const { ObjectId } = require("mongodb");
 
 //connection URL
-const url = "mongodb+srv://kaushindersinghraghav_db_user:q2VYaGyGPF1ZJcXT@cluster0.8deh0eq.mongodb.net/"
+const url = "mongodb+srv://kaushindersinghraghav_db_user:<PASSWORD>@cluster0.8deh0eq.mongodb.net/"
 const client = new MongoClient(url);
 
 const dbname = "NamsteNodejs"
